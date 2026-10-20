@@ -27,6 +27,7 @@ Menyediakan fondasi backend FastAPI dan shell frontend yang dapat dijalankan, di
 - Mobile harness 375px: bottom nav, grid 2 kolom, `scrollWidth 360 <= 375` (tanpa overflow).
 - `pytest` → **14 passed**, 1 warning deprecation dari Starlette/httpx (bukan kegagalan).
 - Uvicorn live: `/health` ok; `/ready` degraded (jujur); `/api/v1/me` reviewer mengembalikan role/permission; 404 status 404.
+- Git: repo diinit, commit `e9e3b32` di branch `main`, remote `origin` → `aracode-code/nur`, push sukses; working tree clean.
 
 ## Keputusan teknis sesi ini
 

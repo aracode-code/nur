@@ -21,6 +21,7 @@ Fondasi backend FastAPI + shell frontend yang dapat dijalankan, diuji, dan diper
 - [x] Backend: health/ready, mock auth, permission dependency, `/api/v1/me`
 - [x] Backend tests: 14 passed
 - [x] Live server check: health/ready/me/404
+- [x] Git init + commit `e9e3b32` + push `origin/main`
 - [x] `docs/product/backlog-fastapi.md`
 - [ ] BE-008 OpenAPI contract test
 - [ ] BE-010/011/012/016 identity nyata + status akun
