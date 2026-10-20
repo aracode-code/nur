@@ -1,0 +1,19 @@
+{
+  "index_version": 1,
+  "mode": "LIGHTWEIGHT_GREP",
+  "status": "DEGRADED",
+  "reason": "SQLite index unavailable in current runtime. Code discovery uses Grep/Glob; no symbol or dependency graph yet.",
+  "indexed_commit": "",
+  "last_indexed_at": "2026-10-20T16:33:04+07:00",
+  "scope": [
+    "backend/app",
+    "backend/tests",
+    "apps/studio/src",
+    "packages/design-tokens"
+  ],
+  "validation": {
+    "status": "not_run",
+    "checked_at": "",
+    "notes": "Run INDEX validation when identity and catalog modules grow; add code.db when a SQLite-capable indexer is available."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "nur-platform",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.18.0",
+  "scripts": {
+    "dev:studio": "pnpm --filter @nur/studio dev",
+    "build:studio": "pnpm --filter @nur/studio build",
+    "typecheck:studio": "pnpm --filter @nur/studio typecheck"
+  }
+}

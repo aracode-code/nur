@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--nur-font-sans);
+
+  --color-bg: var(--nur-color-bg);
+  --color-surface: var(--nur-color-surface);
+  --color-surface-raised: var(--nur-color-surface-raised);
+  --color-surface-hover: var(--nur-color-surface-hover);
+  --color-text: var(--nur-color-text);
+  --color-muted: var(--nur-color-text-muted);
+  --color-subtle: var(--nur-color-text-subtle);
+  --color-primary: var(--nur-color-primary);
+  --color-primary-ink: var(--nur-color-primary-ink);
+  --color-gold: var(--nur-color-gold);
+  --color-border: var(--nur-color-border);
+  --color-danger: var(--nur-color-danger);
+
+  --radius-control: var(--nur-radius-control);
+  --radius-card: var(--nur-radius-card);
+  --radius-hero: var(--nur-radius-hero);
+  --radius-pill: var(--nur-radius-pill);
+
+  --breakpoint-md: 760px;
+  --breakpoint-lg: 1120px;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--nur-color-bg);
+    color: var(--nur-color-text);
+    font-family: var(--nur-font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--nur-color-primary);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

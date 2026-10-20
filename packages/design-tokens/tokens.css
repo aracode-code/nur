@@ -1,0 +1,60 @@
+/* NUR design tokens — single source of truth (HLD §28.3, UX spec §2). */
+:root {
+  --nur-color-bg: #07151d;
+  --nur-color-surface: #0d222d;
+  --nur-color-surface-raised: #122d39;
+  --nur-color-surface-hover: #183844;
+  --nur-color-text: #f4f7f4;
+  --nur-color-text-muted: #9eb2b8;
+  --nur-color-text-subtle: #6e8992;
+  --nur-color-primary: #32d4bd;
+  --nur-color-primary-ink: #062522;
+  --nur-color-gold: #e9c879;
+  --nur-color-border: rgba(190, 220, 221, 0.13);
+  --nur-color-danger: #f18e82;
+
+  --nur-radius-control: 12px;
+  --nur-radius-card: 18px;
+  --nur-radius-hero: 24px;
+  --nur-radius-pill: 999px;
+
+  --nur-space-1: 4px;
+  --nur-space-2: 8px;
+  --nur-space-3: 12px;
+  --nur-space-4: 16px;
+  --nur-space-5: 20px;
+  --nur-space-6: 24px;
+  --nur-space-8: 32px;
+  --nur-space-10: 40px;
+  --nur-space-12: 48px;
+  --nur-space-16: 64px;
+
+  --nur-layout-sidebar: 248px;
+  --nur-layout-content-max: 1500px;
+
+  --nur-font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+  --nur-text-display: 32px;
+  --nur-leading-display: 38px;
+  --nur-text-h1: 28px;
+  --nur-leading-h1: 34px;
+  --nur-text-h2: 22px;
+  --nur-leading-h2: 28px;
+  --nur-text-h3: 18px;
+  --nur-leading-h3: 24px;
+  --nur-text-body: 16px;
+  --nur-leading-body: 24px;
+  --nur-text-body-s: 14px;
+  --nur-leading-body-s: 20px;
+  --nur-text-caption: 12px;
+  --nur-leading-caption: 16px;
+
+  --nur-elevation-1: 0 8px 24px rgba(0, 0, 0, 0.24);
+  --nur-elevation-2: 0 16px 48px rgba(0, 0, 0, 0.32);
+
+  --nur-duration-fast: 120ms;
+  --nur-duration-base: 180ms;
+  --nur-duration-slow: 240ms;
+  --nur-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
